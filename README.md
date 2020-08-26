@@ -1,6 +1,8 @@
 # Image-Classification-of-categories-Building_forest_glacier_mountain_sea_street-using-keras
 Image Classification of categories [Building, forest, glacier, mountain, sea, street]
 
+Download the full dataset from here [https://www.dropbox.com/s/j63xk9aopi58ifk/Image%20Classification%20of%20categories%20%5BBuilding%2C%20forest%2C%20glacier%2C%20mountain%2C%20sea%2C%20street%5D.zip?dl=0](https://www.dropbox.com/s/j63xk9aopi58ifk/Image%20Classification%20of%20categories%20%5BBuilding%2C%20forest%2C%20glacier%2C%20mountain%2C%20sea%2C%20street%5D.zip?dl=0)
+
 ## 1.	Load the data set: 
 The dataset consists of six classes with 14034 training and 3000 testing examples. The split ratio of each classes shown below:
 ![images/1.png](images/1.png)
@@ -36,8 +38,8 @@ The first model that I have tried has 8 layers of cnn with different combination
 
 
 #### a.	Model1 Architecture visualization:
-from keras.utils import plot_model
-    
+
+    from keras.utils import plot_model    
     plot_model(model1, show_shapes=True,to_file='model1.png')
 
 ![images/7.png](images/7.png)
